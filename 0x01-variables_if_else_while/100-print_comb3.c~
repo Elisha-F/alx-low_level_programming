@@ -1,0 +1,28 @@
+#include <stdio.h>
+/**
+ * main - Entry point for main
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+int combo1, combo2;
+for (combo1 = '0'; combo1 < '9'; combo1++)
+{
+for (combo2 = combo1 + 1; combo2 <= '9'; combo2++)
+{
+if (combo2 != combo1)
+{
+putchar(combo1);
+putchar(combo2);
+if (combo1 == '8' && combo2 == '9')
+{
+continue;
+}
+putchar(',');
+putchar(' ');
+}
+}
+}
+return (0);
+}
