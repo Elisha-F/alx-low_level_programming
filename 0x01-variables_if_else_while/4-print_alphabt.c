@@ -11,7 +11,7 @@ e = 'e';
 q = 'q';
 for (alphabt = 'a'; alphabt <= 'z'; alphabt++)
 {
-if (e != 'e' && q != 'q')
+if (alphabt != e && alphabt != q)
 {
 putchar(alphabt);
 }
