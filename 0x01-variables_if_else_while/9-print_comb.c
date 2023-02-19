@@ -10,9 +10,12 @@ int combo;
 for (combo = '0'; combo <= '9'; combo++)
 {
 putchar(combo);
+if (combo != '9')
+{
 putchar(',');
 putchar(' ');
 }
- putchar('\n');
+}
+putchar('\n');
 return (0);
 }
