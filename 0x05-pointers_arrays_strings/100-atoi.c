@@ -6,9 +6,10 @@
  * @s: variable char
  * Return: 0 if no string, and integer when their is a string
  */
-int _atoi(char *s)
+
+int _atoi(char *s) 
 {
 int val;
-val = atoi(s);
+val =atoi(s);
 return (val);
 }
