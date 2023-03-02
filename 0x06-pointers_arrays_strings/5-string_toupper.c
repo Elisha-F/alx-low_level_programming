@@ -8,7 +8,7 @@
  */
 char *string_toupper(char *str)
 {
-long unsigned int i;
+unsigned long int i;
 for (i = 0; i < strlen(str); i++)
 {
 if (islower(str[i]))
