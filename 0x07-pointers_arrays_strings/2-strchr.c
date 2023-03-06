@@ -8,16 +8,7 @@
  */
 char *_strchr(char *s, char c)
 {
-unsigned long int i;
-for (i = 0; i < strlen(s); i++)
-{
-if (s[i] == c)
-{
-return (s);
-}
-else
-{
-return (NULL);
-}
-}return (s);
+char *p;
+p = strchr(s, c);
+return (p);
 }
