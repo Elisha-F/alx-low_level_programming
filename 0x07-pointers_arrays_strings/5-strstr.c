@@ -9,6 +9,6 @@
 char *_strstr(char *haystack, char *needle)
 {
 char *ret;
-ret = stratr(haystack, needle)
+ret = strstr(haystack, needle);
 return (ret);
 }
