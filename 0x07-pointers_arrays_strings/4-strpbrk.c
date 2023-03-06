@@ -1,14 +1,14 @@
 #include "main.h"
 #include <string.h>
 /**
- * _strspn - gets the length of a prefix substring
+ * _strpbrk - searches for a string for any set of bytes
  * @s: Pointer of char type
  * @accept: pointer of char type
- * Return: No. of initial segment of s
+ * Return: Pointer to the byte in s that matches one in accept
  */
 char *_strpbrk(char *s, char *accept)
 {
 char *p;
-p = strbrk(s, accept);
+p = strpbrk(s, accept);
 return (p);
 }
