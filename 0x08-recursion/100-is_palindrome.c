@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /**
  *is_palindrome_helper - checks for a palindrome
  *@s: pointer of char type
