@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 {
 int i, j, num;
 int sum = 0;
-for ( i = 1; i < argc; i++)
+for (i = 1; i < argc; i++)
 {
 char *num_str = argv[i];
 for (j = 0; num_str[j] != '\0'; j++)
@@ -20,7 +20,7 @@ for (j = 0; num_str[j] != '\0'; j++)
 if (!isdigit(num_str[j]))
 {
 printf("Error\n");
-return 1;
+return (1);
 }
 }
 num = atoi(num_str);
@@ -30,5 +30,5 @@ sum += num;
 }
 }
 printf("%d\n", sum);
-return 0;
+return (0);
 }
