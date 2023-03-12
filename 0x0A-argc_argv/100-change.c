@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+/**
+ * main - finds minimum number of coins
+ * @argc: number of arguments
+ * @argv: vector array
+ * Return: 0 when successful, 1 otherwise
+ */
 int main(int argc, char *argv[])
 {
 int cents, num_coins;
