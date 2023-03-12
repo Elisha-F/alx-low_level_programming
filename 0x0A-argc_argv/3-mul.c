@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 long mult;
 if (argc == 3)
 {
-mult = atoi(argv[1]) *atoi(argv[2]);
+mult = atoi(argv[1]) * atoi(argv[2]);
 }
 else
 {
