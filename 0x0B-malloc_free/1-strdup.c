@@ -18,7 +18,7 @@ if (newstr == NULL)
 {
 return (NULL);
 }
-strcpy(newstr, str);
+newstr = strdup(str);
 return (newstr);
 free(newstr);
-} /* similar to function strdup()*/
+}
