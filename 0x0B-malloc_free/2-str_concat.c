@@ -27,4 +27,5 @@ return (NULL);
 strcpy(newstr, s1);
 strcat(newstr, s2);
 return (newstr);
+free(newstr);
 }
