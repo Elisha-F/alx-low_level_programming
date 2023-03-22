@@ -1,8 +1,8 @@
 #include <stdio.h>
-/*
+/**
  * main - Prints the name of the file it was compiled fro
  *
- * Returns: 0 Always
+ * Return: 0 Always
  */
 int main(void)
 {
