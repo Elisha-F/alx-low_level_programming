@@ -1,7 +1,7 @@
 #include <stdio.h>
 /*
- * main - prints the name of the file it was compiled from followed by new line
- * @void: accepts nothing
+ * main - Prints the name of the file it was compiled fro
+ *
  * Returns: 0 Always
  */
 int main(void)
