@@ -1,3 +1,4 @@
+#include "function_pointers.h"
 /**
  * array_iterator - executes a function
  * @array: array pointer
@@ -10,4 +11,5 @@ size_t i;
 for (i = 0; i < size; i++)
 {
 action(array[i]);
+}
 }
