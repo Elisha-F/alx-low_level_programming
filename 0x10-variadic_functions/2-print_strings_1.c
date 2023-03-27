@@ -16,9 +16,15 @@ va_start(ap, n);
 for (i = 0; i < n; i++)
 {
 words = va_arg(ap, char *);
-(words) ? printf("%s", words) : printf("(nil)");
+printf("%s", words);
 if (separator != NULL && i < n - 1)
+{
 printf("%s", separator);
+}
+if (words == NULL)
+{
+printf("(nil)");
+}
 }
 va_end(ap);
 printf("\n");
