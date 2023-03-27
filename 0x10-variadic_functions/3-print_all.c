@@ -9,12 +9,12 @@
 void print_all(const char * const format, ...)
 {
 va_list args;
-va_start(args, format);
 char c;
 int i;
 float f;
 char *s;
 int num_args = 0;
+va_start(args, format);
 while ((c = format[num_args]) != '\0')
 {
 switch (c)
